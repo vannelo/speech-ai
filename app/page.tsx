@@ -40,7 +40,7 @@ export default function Home() {
       <div className="absolute px-4 text-center">
         <div className="flex min-h-screen flex-col items-center justify-center">
           <h1 className="text-3xl font-bold ">Vannelo Speech Creator</h1>
-          <h2 className="text-xl">
+          <h2 className="text-xl mb-2">
             Create your own speech with the help of AI. Just type in your speech
             and let the AI do the rest.
           </h2>
