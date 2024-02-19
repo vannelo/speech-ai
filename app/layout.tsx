@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vannelo Speech Creator",
+  description:
+    "Create your own speech with the help of AI. Just type in your speech and let the AI do the rest.",
 };
 
 export default function RootLayout({
