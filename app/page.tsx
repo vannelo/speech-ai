@@ -10,15 +10,18 @@ export default function Home() {
 
   const handleCreateSpeech = async () => {
     setLoading(true);
-    const response = await fetch("/api/speech/create", {
-      method: "POST",
-      body: JSON.stringify({
-        speech,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const response = await fetch(
+      "https://speech-ai-pi.vercel.app/api/speech/create",
+      {
+        method: "POST",
+        body: JSON.stringify({
+          speech,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     const audioUrl = await response.text();
     const status = response.status;
 
