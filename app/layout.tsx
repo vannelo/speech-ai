@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://speech-ai-pi.vercel.app"),
   title: "Vannelo Speech Creator",
   description:
     "Create your own speech with the help of AI. Just type in your speech and let the AI do the rest.",
